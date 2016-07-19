@@ -8,11 +8,14 @@ Text is displayed using font SDF (signed distance function) generated with SDFon
 
 # Dependencies
 
-[GLM](http://glm.g-truc.net)
-[SenOGL](https://github.com/Senryoku/SenOGL)
+[GLM](http://glm.g-truc.net) (Only for the vec2 class I think ?...)
+
+[SenOGL](https://github.com/Senryoku/SenOGL) (Wrapping some OpenGL calls)
+
+You'll also need something to manage the opengl programs/shaders, like the Resources module of [this](https://github.com/Senryoku/SEngine) (this is currently in use in this version, see the Resources::getProgram or Resources::load calls).
 
 # Examples
 
-![Plot elements](https://github.com/username/BasicGUI/blob/master/screenshot_0-min.png)
+![Plot elements](screenshot_0-min.png)
 
-![Simple menu](https://github.com/username/BasicGUI/blob/master/screenshot_0-min.png)
+![Simple menu](screenshot_1-min.png)
